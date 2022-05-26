@@ -1,4 +1,4 @@
-# SAVR - minimal x lockscreen written in rust
+# SAVR - minimal x lockscreen written in rust ![Crates.io](https://img.shields.io/crates/v/savr)
 
 ## Motivation
 
