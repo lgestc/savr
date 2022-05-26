@@ -1,0 +1,19 @@
+[package]
+name = "savr"
+description = "Dead simple x-lockcreen"
+version = "0.1.0"
+edition = "2021"
+authors = [
+  "Lukasz Gmys <lgmys@pm.me>"
+]
+repository = "https://github.com/lgmys/savr"
+homepage = "https://github.com/lgmys/savr"
+readme = "README.md"
+license = "MIT"
+keywords = ["X11", "lockscreen"]
+
+[dependencies]
+x11rb = "0.9.0"
+xkbcommon = { version = "0.4", features = ["x11"] }
+pam = "0.7.0"
+clap = { version = "3.1.18", features = ["derive"] }
