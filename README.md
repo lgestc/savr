@@ -3,7 +3,7 @@
 ## Motivation
 
 `savr` is a minimal lockscreen written with rust-lang. I took the inspiration from `slock`, but I wanted the ability to customize
-the `locked` message. In `slock` this comes with community patches, with `savr` is is built in. It also uses `pam` for authentication as 
+the `locked` message. In `slock` this comes with community patches, with `savr` it is built in. It also uses `pam` for authentication as 
 opposed to manual password hash lookup.
 
 ## Usage
